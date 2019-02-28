@@ -1,0 +1,54 @@
+body{
+    overflow-x: hidden;
+}
+
+.rightBar{
+    position: absolute;
+    top:0%;
+    left:50%;
+    width:50%;
+    height:500px;
+    background:#ffff;
+}
+
+.rightBar h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #353535;
+    font-size:17px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.rightBar hr{
+    width: 85%;
+    height:1px;
+    background: #353535;
+    float: left;
+}
+
+.rightBar p{
+    font-size:12px;
+    color: #353535;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}   
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .rightBar{
+        height:200px;
+    }
+}
+

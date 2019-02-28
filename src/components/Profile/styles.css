@@ -1,0 +1,75 @@
+.profileBar{
+    margin-top:1px;
+    width:49%;
+    height:820px;
+    background-color:#353535;
+}
+
+.profileBar h6{
+    padding-top:5%;
+    color: #ffff;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.profileBar hr{
+    width:50%;
+    height:2px;
+    background:#ffff;
+}
+
+.profileBar p{
+    padding-top: 1%;
+    font-size:12px;
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    opacity: .8;
+}
+
+.progressBar{
+    margin: 0 auto 0;
+    width:50%;
+    height:10px;
+    border:#ffff solid 2px;
+}
+
+.progress{
+    width:40%;
+    height:10px;
+    background:#ffff;
+}
+
+.title-progress{
+    font-size: 15px!important;
+    font-weight:400!important;
+    margin-bottom:1%;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .profileBar{
+        height:900px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .profileBar{
+        height:600px;
+    }
+}   
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .profileBar{
+        height:700px;
+    }
+}
