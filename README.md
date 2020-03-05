@@ -1,14 +1,7 @@
+### Project Developed to the B2W React Challenge
+The challenge can be viewed <a href="https://github.com/b2w-marketplace/code-challenge">here</a>
 
+### Project Infos
+To download the project dependencies, just use npm install on the root directory
 
-In the project directory, you can run:
-
-### `yarn install`
-install the dependencies of project
-
-### `yarn start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-
+To start the project, just use npm start on the root directory
